@@ -16,6 +16,7 @@ const Counter: React.FC<CounterProps> = ({
     value,
     onChange
 }) =>{
+    
     const onAdd = useCallback(() => {
         onChange(value + 1);
     }, [onChange, value])
