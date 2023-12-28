@@ -31,7 +31,7 @@ import ListingCard from "./components/listings/ListingCard";
           2xl:grid-cols-6
           gap-8
         ">
-          {listings.map((item: any) => {
+          {listings.map((item) => {
             return (
               <ListingCard
                 currentUser={currentUser}
